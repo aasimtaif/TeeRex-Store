@@ -1,0 +1,16 @@
+.card-img-top{
+    width: 50%;
+}
+.row{
+    width:60%;
+    padding: 2rem;
+    margin: 1rem;
+}
+.btn{
+    margin: 2rem;
+}
+.add-or-remove{
+    display: flex;
+ margin: auto;
+    flex-direction: row;
+}

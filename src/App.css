@@ -18,3 +18,8 @@
 .cart-link {
   text-decoration: none;
 }
+.App{
+  display: flex;
+  flex-direction: row ;
+  padding-top: 2rem;
+}
