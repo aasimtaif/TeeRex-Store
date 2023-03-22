@@ -32,6 +32,7 @@ export default function cartReducer(state = {
                     return {
                         ...state,
                         items: {
+                            ...state.items,
                             [product.id]: {
                                 ...state.items[product.id],
                                 error: "Out of stock"
@@ -79,6 +80,7 @@ export default function cartReducer(state = {
                         [product.id]: {
                             ...state.items[product.id],
                             order_quantity: state.items[product.id].order_quantity - 1,
+                            error:null
                         }
                     }
                 }

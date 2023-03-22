@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { addToCart, removeFromCart } from '../redux/ReduxCart'
 import './Items.css'
 
 export default function AddOrRemoveButton({ product }) {
-const [error, setError] = useState();
+
     const dispatch = useDispatch();
 
     const item = useSelector(state => {
